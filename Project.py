@@ -19,7 +19,7 @@ def login_details():
     mydb=mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Dhiv@1722")
+    password="") #enter your database password
     
     os.system("cls")
     print("                  Classroom Allocation Managemnt System")
