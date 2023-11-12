@@ -17,8 +17,8 @@ def display_periods():
 def login_details():
     # establishing sql connection
     mydb=mysql.connector.connect(
-    host="localhost",
-    user="root",
+    host="",
+    user="",
     password="") #enter your database password
     
     os.system("cls")
@@ -84,9 +84,9 @@ def activity_page():
 def schedule_session():
     
     mydb=mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Dhiv@1722")
+    host="",
+    user="",
+    password="")
     
     os.system("cls")
     print("                  Classroom Allocation Managemnt System")
@@ -143,9 +143,9 @@ def schedule_session():
 def check_session(name,sess):
     
     mydb=mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Dhiv@1722")
+    host="",
+    user="",
+    password="")
 
     check=0
     check_cur=mydb.cursor()
@@ -167,9 +167,9 @@ def check_session(name,sess):
 def check_session1(name,desc,d,per):
     
     mydb=mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Dhiv@1722")
+    host="",
+    user="",
+    password="")
 
     check=0
     check_cur=mydb.cursor()
@@ -189,9 +189,9 @@ def check_session1(name,desc,d,per):
 def change_session():
     
     mydb=mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Dhiv@1722")
+    host="",
+    user="",
+    password="")
 
     os.system("cls")
     print("                  Classroom Allocation Managemnt System")
@@ -270,9 +270,9 @@ def change_session():
 def cancel_session():
     
     mydb=mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Dhiv@1722")
+    host="",
+    user="",
+    password="")
 
     os.system("cls")
     print("                  Classroom Allocation Managemnt System")
@@ -309,9 +309,9 @@ def cancel_session():
 def registration_details():
     
     mydb=mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Dhiv@1722")
+    host="",
+    user="",
+    password="")
 
     os.system("cls")
     print("                  Classroom Allocation Managemnt System")
